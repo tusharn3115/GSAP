@@ -24,3 +24,22 @@ body{
     height: 300px;
     background-color: greenyellow;
 }
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    user-select: none;
+}
+
+#part2{
+    display: flex;
+    gap: 50px;
+}
+
+#part2 h4{
+    cursor: pointer;
+}

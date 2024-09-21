@@ -40,3 +40,22 @@ gsap.from("h1", {
 
     yoyo:true,     // if you want the animation to work like yoyo i.e when we through it forward it come back, the yoyo property also does the same thing the animation moves from initial to final and then final to initial in case of yoyo property 
 })
+
+
+// timeline() method ----------------------------------------------------------------
+
+let tl = gsap.timeline()
+
+tl.from("h2", {
+    y:-20,
+    opacity:0,
+    duration:1,
+    delay:0.5,
+})
+tl.from("h4", {
+    y:-20,
+    opacity:0,
+    duration:0.5,
+    // delay:0.5,
+    stagger:0.3,
+})
