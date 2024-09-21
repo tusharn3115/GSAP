@@ -44,6 +44,11 @@ gsap.from("h1", {
 
 // timeline() method ----------------------------------------------------------------
 
+// Without Timelines, building complex sequences would be far more difficult because you'd need to use a delay for every animation.
+
+// Timeline is a powerful way to control and sequence multiple animations. It allows you to create a timeline of animations that can be played, paused, reversed, or manipulated as a whole.
+
+
 let tl = gsap.timeline()
 
 tl.from("h2", {
