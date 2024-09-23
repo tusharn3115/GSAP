@@ -3,10 +3,50 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "General Sans";
+    scrollbar-width: thin;
 }
 
 html, 
 body{
     width: 100%;
     height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(108, 190, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 102, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.page2 h1{
+    font-size: 50px;
+    position: relative;
+}
+
+.page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(100, 221, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
 }
